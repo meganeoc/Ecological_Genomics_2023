@@ -47,3 +47,15 @@
 
 
 ### Entry 3: 2023-XX-XX.
+------    
+<div id='id-section3'/>   
+
+
+### Entry 4: 2023-09-20.
+Today we finished our mapping statistics to assess our quality of our populations' results.
+- this included the use of 'flagstat' and 'depth' of coverage
+- talked about depth/coverage in detail
+We are also going to look at Genotype Likelihood (GL) of the genotypes because you can't say for sure the second allele is one certain letter.
+We're using ANGSD (has a website we can look at)
+- can look at site frequency spectrum (SFS)
+- and estimate nucleotide diversity and neutrality
