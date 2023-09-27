@@ -3,7 +3,7 @@ setwd("~/Documents/GitHub/Ecological_Genomics_23/PopGenomics/results/")
 list.files()
 
 # First let's read in the diversity stats
-theta <- read.table("_.thetas",sep="\t",header=T)
+theta <- read.table("2022_.thetas",sep="\t",header=T)
 
 theta$tWsite = theta$tW/theta$nSites #scales the theta-W by the number of sites
 theta$tPsite = theta$tP/theta$nSites #scales the theta-Pi by the number of sites
