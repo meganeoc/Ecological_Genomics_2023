@@ -18,6 +18,7 @@
 -   [Entry 2: 2023-09-13](#id-section2)
 -   [Entry 3: 2023-09-18](#id-section3)
 
+
 ------    
 <div id='id-section1'/>   
 
@@ -26,7 +27,7 @@
 
 - Reviewed the red spruce study system and the exome capture data
 - Discussed the structure of fast1 files (DNA Sequence and Qscores)
-- Used FastQC to analyze teh quality of the sequencing runs for one file
+- Used FastQC to analyze the quality of the sequencing runs for one file
 
 
 ------    
@@ -45,11 +46,17 @@
 ------    
 <div id='id-section3'/>   
 
-
-### Entry 3: 2023-XX-XX.
+### Entry 3: 2023-09-18.
+- learned about lab notebooks!
+- looked at our SAM (SequenceAlignMent) files
+- used sambamba to manipulate the files
+    - we removed the duplicate reads
+    - also indexed the alignment so it's easier to move through
+- Used samtools and looked at a flagstat to see how well the mapping worked
+    - looked at depth of coverage, which is the number of reads per site (command depth)
+  
 ------    
-<div id='id-section3'/>   
-
+<div id='id-section3'/>  
 
 ### Entry 4: 2023-09-20.
 Today we finished our mapping statistics to assess our quality of our populations' results.
@@ -59,3 +66,17 @@ We are also going to look at Genotype Likelihood (GL) of the genotypes because y
 We're using ANGSD (has a website we can look at)
 - can look at site frequency spectrum (SFS)
 - and estimate nucleotide diversity and neutrality
+
+------    
+<div id='id-section3'/> 
+
+### Entry 5: 2023-09-27.
+Estimating Fst
+- We do this by comparing each populations' Site Frequency Spectrums
+- We compared MYPOP (our focal red spruce population, for me 2022) to Black Spruce
+PCA and Admixture
+- both of these tests are used to visualize the genetic structure in the entire set of sampless
+- we used pcANGSD to put all of the allele frequencies into clusters that the individual might have relation or connection with
+- assumed an eigenvalue of 2 (k=3) for this run but will explore more in homework assignment
+- 
+
