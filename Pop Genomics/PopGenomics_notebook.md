@@ -78,5 +78,21 @@ PCA and Admixture
 - both of these tests are used to visualize the genetic structure in the entire set of sampless
 - we used pcANGSD to put all of the allele frequencies into clusters that the individual might have relation or connection with
 - assumed an eigenvalue of 2 (k=3) for this run but will explore more in homework assignment
-- 
+
+------    
+<div id='id-section3'/> 
+
+### Entry 6: 2023-10-02.
+-ran a selection for Fst Outliers
+- used pcangsd
+- visualized outlier loci and looked at them through plantgenie
+
+------    
+<div id='id-section3'/> 
+
+### Entry 7: 2023-10-04.
+- got bioclim variables from worldclim
+- ran GEA to see which outlier loci associated with climate
+- ran zcat to see significatn outliers
+- cut them so we could see them in plantgenie eventually!
 

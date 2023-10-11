@@ -112,8 +112,8 @@ dimdesc(clim_PCA)[1:2]
 ##Exporting bioclim
 # Replace "XX" with your bio variable most significant on climate PC1:
 
-write.table(scale(angsd_coords_clim["bio13"]),
-            "allRS_bio13.txt",
+write.table(scale(angsd_coords_clim["bio14"]),
+            "allRS_bio4.txt",
             sep="\t",
             quote=F,
             row.names = F,
