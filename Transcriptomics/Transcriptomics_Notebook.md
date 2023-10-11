@@ -39,7 +39,9 @@ Seems like a simple experiment, but there are tons of ways to explore it
 #### Coding
 My Sample Group: F0 (Ambient AA)(Nreps3)
 - Good quality scores, most Fs
-- Cleaned data using FastP
+- Cleaned data using FastP 0.23.4
+  - went into "fastp" directory in myresults
+- recorded stats from clean files including reads before/after filtering, and percentage reads passed filters, put them in the google doc
 
 ------    
 <div id='id-section2'/>   
