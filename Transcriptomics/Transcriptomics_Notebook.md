@@ -17,6 +17,7 @@
 * [Entry 1: 2020-10-11](#id-section1)
 * [Entry 2: 2020-10-16](#id-section2)
 * [Entry 3: 2020-10-18](#id-section3)
+* [Entry 3: 2020-10-](#id-section4)
 
 
 ------    
@@ -63,4 +64,11 @@ Mapped reads using Salmon
 <div id='id-section3'/>   
 
 
-### Entry 3: 2023-XX-XX.
+### Entry 3: 2023-10-18.
+- Checked Salmon Files, looked at ahud_mapping.txt
+    - What factors could affect their quality?
+- Started analyzing the gene expression data using DESeq2
+    - Imported Data
+    - Looked at reads per each sample/average reads among all of them (graph)
+- You can change the dds to other things (we debated between 15 and 30)
+- have to install commandline tools, did not get past dds ask for help after downloading
