@@ -1,7 +1,7 @@
 ## Set your working directory
-setwd("~/Ecological_Genomics_2023/Transcriptomics/results")
+setwd("~Desktop/Ecological_Genomics_2023/Transcriptomics/results")
 
-## Import the libraries that we're likely to need in this session
+# Import the libraries that we're likely to need in this session
 
 if (!require("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
@@ -81,3 +81,4 @@ dds <- DESeq(dds)
 
 # List the results you've generated
 resultsNames(dds)
+
