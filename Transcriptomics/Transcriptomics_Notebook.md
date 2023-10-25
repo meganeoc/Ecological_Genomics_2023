@@ -25,6 +25,7 @@ editor_options:
 -   [Entry 3: 2020-10-18](#id-section3)
 -   [Entry 4: 2020-10-23](#id-section4)
 -   [Entry 5: 2020-10-25](#id-section5)
+-   [Entry 6: 2020-10-30](#id-section6)
 
 <div id='id-section2'/>
 DAY 3
@@ -82,3 +83,18 @@ DAY 5
 <div id='id-section3'/>
 
 ### Entry 5: 2023-10-25.
+- Transferred trait data to results
+Work through WGCNA (Weighted Gene Coexpression Network Analysis)
+    - looks for clusters with similar expression patterns, calls them modules          and gives them different colors, almost similar to PCAs
+    - Each module has an eigengene,
+    - processing data table
+    - higher R2 equals tighter the modules have to be, can optimize
+    - agnostic of what metadata our samples have, ignores treatment groups if         the expression patterns are similar
+    - THEN we give it all of the METADATA and then ask for a correlation              between module and a factor (ie egg production rate) biological               context
+- Imported Counts Matrix
+- signed means it cares whether upregulated or downregulated, unsigned is absolute value
+------------------------------------------------------------------------
+
+<div id='id-section3'/>
+
+### Entry 6: 2023-10-30.
