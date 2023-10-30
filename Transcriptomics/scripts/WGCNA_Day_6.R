@@ -3,6 +3,11 @@
 setwd("YOUR/WORKING/DIRECTORY")
 
 # Load the package
+if (!require("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+
+BiocManager::install("preprocessCore")
+
 library(WGCNA);
 # The following setting is important, do not omit.
 options(stringsAsFactors = FALSE);

@@ -415,3 +415,4 @@ plot(fit1, quantities = TRUE, fill = "transparent",
 2177+2277+308+79 # 4841, total OW
 1125+2277+308+32 # 3742, total OWA
 101+32+79+308    # 520, total OA
+
