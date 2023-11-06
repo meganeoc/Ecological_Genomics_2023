@@ -130,7 +130,7 @@ sft <- pickSoftThreshold(norm.counts,
                          verbose = 5)
 
 
-sft.data <- sft$fitIndices
+ sft.data <- sft$fitIndices
 
 # visualization to pick power
 
@@ -157,7 +157,7 @@ grid.arrange(a1, a2, nrow = 2)
 # convert matrix to numeric
 norm.counts[] <- sapply(norm.counts, as.numeric)
 
-soft_power <- 6
+soft_power <- 8
 temp_cor <- cor
 cor <- WGCNA::cor # use the 'cor' function from the WGCNA package
 
@@ -182,6 +182,11 @@ bwnet <- blockwiseModules(norm.counts,
 # smaller modules.
 
 cor <- temp_cor
+
+
+
+
+
 
 ############################################################################
 # DAY 7 #
@@ -241,15 +246,15 @@ heatmap.data <- heatmap.data %>%
 names(heatmap.data)
 
 CorLevelPlot(heatmap.data,
-             x = names(heatmap.data)[12:16],
-             y = names(heatmap.data)[1:11],
+             x = names(heatmap.data)[18:22],
+             y = names(heatmap.data)[1:15],
              col = c("blue1", "skyblue", "white", "pink", "red"))
 
 
 
 module.gene.mapping <- as.data.frame(bwnet$colors) # assigns module membership to each gene
 module.gene.mapping %>% 
-  filter(`bwnet$colors` == 'yellow') %>% 
+  filter(`bwnet$colors` == 'blue') %>% 
   rownames()
 
 groups <- sample_metadata[,c(3,1)]
@@ -272,6 +277,9 @@ ggplot(MEyellow_summary, aes(x=as.factor(Generation), y=MEyellow, color=treatmen
   theme(panel.border = element_rect(color = "black", fill = NA, size = 4))+
   theme(text = element_text(size = 20)) +
   theme(panel.grid.minor.y = element_blank(), legend.position = "none", plot.margin = margin(0,6,0,6))
+
+
+
 #---------------------------------------------------------------------------------------------
 # 6B. Intramodular analysis: Identifying driver genes ---------------
 
@@ -333,3 +341,4 @@ myBreaks <- c(seq(min(t_norm.counts_purple), 0, length.out=ceiling(paletteLength
               seq(max(t_norm.counts_purple)/paletteLength, max(t_norm.counts_purple), length.out=floor(paletteLength/2)))
 pheatmap(t_norm.counts_purple, color = myColor, breaks = myBreaks,
          show_colnames = FALSE, show_rownames = FALSE, annotation_col = df, main = "Purple")
+

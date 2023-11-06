@@ -26,7 +26,9 @@ editor_options:
 -   [Entry 4: 2023-10-23](#id-section4)
 -   [Entry 5: 2023-10-25](#id-section5)
 -   [Entry 6: 2023-10-30](#id-section6)
--   [Entry 6: 2023-11-01](#id-section6)
+-   [Entry 7: 2023-11-01](#id-section7)
+-   [Entry 8: 2023-11-03](#id-section8)
+-   [Entry 9: 2023-11-05](#id-section9)
 
 <div id='id-section2'/>
 DAY 3
@@ -119,4 +121,18 @@ LAST 2 ARE BIOLOGICAL QUESTIONS (Using parameters we already have)
 
 Gene Ontology!
 
+------------------------------------------------------------------------
+
+<div id='id-section3'/>
+
+### Entry 8: 2023-11-03.
+- chose my question (3)
+- deciding to address soft power thresholds of 6 (original), 7, 8
+- started writing bioinformatics pipeline
+
+------------------------------------------------------------------------
+
+<div id='id-section3'/>
+
+### Entry 9: 2023-11-05.
 
