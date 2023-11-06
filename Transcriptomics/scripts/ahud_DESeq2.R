@@ -7,7 +7,7 @@ if (!require("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
 
 BiocManager::install("DESeq2")
-alibrary(BiocManager)
+library(BiocManager)
 library(DESeq2)
 library(dplyr)
 library(tidyr)
@@ -15,7 +15,7 @@ library(ggplot2)
 library(scales)
 library(ggpubr)
 library(wesanderson)
-library(vsn)  ### First: BiocManager::install("vsn") AND BiocManager::install("hexbin")
+library(vsn)  ###First: BiocManager::install("vsn") AND BiocManager::install("hexbin")
 
 ##################################
 

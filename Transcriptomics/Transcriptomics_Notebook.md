@@ -4,7 +4,7 @@ editor_options:
     wrap: 72
 ---
 
-# Transcriptomics Copepods Notebook
+# Transcriptomics Notebook
 
 ## Author: Megan O'Connor
 
@@ -14,18 +14,19 @@ editor_options:
 
 ### Start Date: 10/09/23
 
-### End Date:
+### End Date: 11/07/23
 
 ### Project Descriptions:
 
 # Table of Contents:
 
--   [Entry 1: 2020-10-11](#id-section1)
--   [Entry 2: 2020-10-16](#id-section2)
--   [Entry 3: 2020-10-18](#id-section3)
--   [Entry 4: 2020-10-23](#id-section4)
--   [Entry 5: 2020-10-25](#id-section5)
--   [Entry 6: 2020-10-30](#id-section6)
+-   [Entry 1: 2023-10-11](#id-section1)
+-   [Entry 2: 2023-10-16](#id-section2)
+-   [Entry 3: 2023-10-18](#id-section3)
+-   [Entry 4: 2023-10-23](#id-section4)
+-   [Entry 5: 2023-10-25](#id-section5)
+-   [Entry 6: 2023-10-30](#id-section6)
+-   [Entry 6: 2023-11-01](#id-section6)
 
 <div id='id-section2'/>
 DAY 3
@@ -98,4 +99,24 @@ Work through WGCNA (Weighted Gene Coexpression Network Analysis)
 <div id='id-section3'/>
 
 ### Entry 6: 2023-10-30.
-- 
+- Talked about what we are missing doing in terms of bioinformatics
+    - parameter space
+- can't find function "goodSamplesGenes" have to talk to Steve or something about it
+- WGCNA just started working though so going to go through scripts from the beginning and hope it resolves itself
+
+------------------------------------------------------------------------
+
+<div id='id-section3'/>
+
+### Entry 7: 2023-11-01.
+HOMEWORK OPTIONS
+1. look at how filtration of de novo assembly can affect results (rerun Salmon)
+2. Filtration based on read depth, come up with new parameters (rerun DESeq stuff about depth)
+3. WGCNA Power Thresholds, look at how this affects genes per module, strength of correlation, number of modules, (xtra credit do GO enrichment)
+LAST 2 ARE BIOLOGICAL QUESTIONS (Using parameters we already have)
+4. focus on 2 treatment groups but 3 of the generations and pull out specific contrasts and compare results, GO Enrichment
+5. look at ALL 4 groups, comparing between F0 F4 subset DESeq by generation
+
+Gene Ontology!
+
+
