@@ -135,3 +135,4 @@ selected_columns_OA <- res_F0_OAvAM_df[c("transcriptID_trim", "log2FoldChange")]
 
 # Save the selected columns as a CSV file
 write.csv(selected_columns_OA, file = "res_F0_OAvAM_LFC.csv", quote = FALSE, row.names = F)
+

@@ -157,7 +157,7 @@ grid.arrange(a1, a2, nrow = 2)
 # convert matrix to numeric
 norm.counts[] <- sapply(norm.counts, as.numeric)
 
-soft_power <- 8
+soft_power <- 7
 temp_cor <- cor
 cor <- WGCNA::cor # use the 'cor' function from the WGCNA package
 
@@ -247,7 +247,7 @@ names(heatmap.data)
 
 CorLevelPlot(heatmap.data,
              x = names(heatmap.data)[18:22],
-             y = names(heatmap.data)[1:15],
+             y = names(heatmap.data)[1:17],
              col = c("blue1", "skyblue", "white", "pink", "red"))
 
 
@@ -261,12 +261,12 @@ groups <- sample_metadata[,c(3,1)]
 module_eigengene.metadata <- merge(groups, heatmap.data, by = 'row.names')
 
 #Create a summary data frame of a particular module eigengene information
-MEyellow_summary <- summarySE(module_eigengene.metadata, measurevar="MEyellow", groupvars=c("Generation","treatment"))
+MEblue_summary <- summarySE(module_eigengene.metadata, measurevar="MEblue", groupvars=c("Generation","treatment"))
 
 #Plot a line interaction plot of a particular module eigengene
-ggplot(MEyellow_summary, aes(x=as.factor(Generation), y=MEyellow, color=treatment, fill = treatment, shape = treatment)) +
+ggplot(MEblue_summary, aes(x=as.factor(Generation), y=MEblue, color=treatment, fill = treatment, shape = treatment)) +
   geom_point(size=5, stroke = 1.5 ) +
-  geom_errorbar(aes(ymin=MEyellow-se, ymax=MEyellow+se), width=.15) +
+  geom_errorbar(aes(ymin=MEyellow-se, ymax=MEblue+se), width=.15) +
   geom_line(aes(color=treatment, group=treatment, linetype = treatment)) +
   scale_color_manual(values = c('#6699CC',"#F2AD00","#00A08A", "#CC3333")) +
   scale_shape_manual(values=c(21,22,23,24), labels = c("Ambient", "Acidification","Warming", "OWA"))+

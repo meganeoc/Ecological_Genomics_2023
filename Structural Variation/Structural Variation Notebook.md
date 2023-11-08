@@ -45,8 +45,20 @@ Beginning Work
 <div id='id-section2'/>   
 
 
-### Entry 2: 2023-XX-XX.  
-
+### Entry 2: 2023-11-08.  
+- chopping up genome eventually making super window
+- 4499 mds_coords.csv
+- i have no cluster groups in my PCA
+Homework in HW Folder
+1. going to compare different corners
+  - 1 line of code change heheheheheh
+  - in summarize_run file
+2. what happens if we change the cutoff value
+  - 1 number change
+  - cd myscripts/, summarize run file mds.corners PROP change the number (make it smaller)nabout 158
+3. Change window size (did 1000 SNPS in class)
+  - 1 number/line of code
+  - change the 1000, rerun local pca DO NOT DECREASE the number
 
 
 ------    
